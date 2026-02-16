@@ -6,7 +6,7 @@ const form = document.querySelector("form"),
     email = document.querySelector("#contact-email"),
     message = document.querySelector("#contact-message"),
     dates = document.querySelector("#contact-date"),
-    tel = document.querySelector('#contact-phone')
+    tel = document.querySelector('#contact-phone'),
     heures = document.querySelector('#contact-time')
 form.addEventListener("submit", async e => {
     e.preventDefault();
