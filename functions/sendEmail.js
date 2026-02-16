@@ -5,7 +5,7 @@ exports.handler = async function (event, context) {
         const requestBody = JSON.parse(event.body);
         console.log('Parsed request body:', requestBody);
 
-        const { name, messages, numbers, emails, dates, tele } = requestBody;
+        const { name, messages, numbers, emails, dates, tele, heure } = requestBody;
 
         console.log('Email details:', { name, messages, numbers, emails, dates, tele, heure });
 
@@ -339,7 +339,7 @@ exports.handler = async function (event, context) {
                   <p>Salut</p>
                   <p>
 Voici le Message de contact <br>
-Le nom : ${name} <br> Nombre de Passagers : ${numbers} <br>Email : ${emails} <br> telephone : ${tele} <br> la date : ${dates} <br> Message : ${messages} <br>
+Le nom : ${name} <br> Nombre de Passagers : ${numbers} <br>Email : ${emails} <br> telephone : ${tele} <br> la date : ${dates} <br> l'heure : ${heure} <br> Message : ${messages} <br>
 </p>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                     <tbody>
