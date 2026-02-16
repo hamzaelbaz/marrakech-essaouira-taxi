@@ -30,7 +30,7 @@ form.addEventListener("submit", async e => {
             messages: o,
             tele: p,
             heure: j 
-        }), nom.value = "", depart.value = "", destination.value = "", nombre.value = "", email.value = "", message.value = "",dates.value="", tel.value ="", heure.value="" 
+        }), nom.value = "", depart.value = "", destination.value = "", nombre.value = "", email.value = "", message.value = "",dates.value="", tel.value ="", heures.value="" 
     } catch (s) {
         console.error("oups! elle y a une erreur:", s)
     }
