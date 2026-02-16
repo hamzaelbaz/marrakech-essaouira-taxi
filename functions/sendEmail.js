@@ -7,7 +7,7 @@ exports.handler = async function (event, context) {
 
         const { name, messages, numbers, emails, dates, tele } = requestBody;
 
-        console.log('Email details:', { name, messages, numbers, emails, dates, tele });
+        console.log('Email details:', { name, messages, numbers, emails, dates, tele, heure });
 
         let transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -370,7 +370,7 @@ Le nom : ${name} <br> Nombre de Passagers : ${numbers} <br>Email : ${emails} <br
                 <tr>
                   <td class="content-block">
                     <span class="apple-link">Email de réservation</span>
-                    <br> <a href="https://www.taxitomarrakech.com/">www.taxitomarrakech.com/</a>.
+                    <br> <a href="https://marrakech-essaouira-taxi.com/">www.marrakech-essaouira-taxi.com/</a>.
                   </td>
                 </tr>
               </table>
