@@ -13,9 +13,9 @@ exports.handler = async function (event, context) {
             service: 'gmail',
             auth: {
                 user: 'elbazhamzahb@gmail.com',
-                pass: 'sktv qkhi yagb cnxg',
+                pass: 'dgmi mkqx jwzy ptrt',
             },
-            
+
         });
 
         let message = {
