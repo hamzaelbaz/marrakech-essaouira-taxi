@@ -205,35 +205,49 @@
 
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="hero-date">Date</label>
-                            <input type="date" id="hero-date" name="date" required>
+                            <label for="contact-date">Date</label>
+                            <input type="date" id="contact-date" name="date" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="hero-time">Time</label>
-                            <input type="time" id="hero-time" name="time" required>
+                            <label for="contact-time">Time</label>
+                            <input type="time" id="contact-time" name="time" required>
                         </div>
                     </div>
-
                     <div class="form-group">
-                        <label for="hero-depart">Pickup Location</label>
-                        <input type="text" id="hero-depart" name="depart" placeholder="City or address" required>
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-people">Number of Passengers</label>
+                            <select id="contact-people" name="people">
+                                <option value="1" selected="">1 Passenger</option>
+                                <option value="2">2 Passengers</option>
+                                <option value="3">3 Passengers</option>
+                                <option value="4">4 Passengers</option>
+                                <option value="5">5 Passengers</option>
+                                <option value="6+">6+ Passengers</option>
+                            </select>
+                        </div>
+                    <div class="form-group">
+                        <label for="contact-depart">Pickup Location</label>
+                        <input type="text" id="contact-depart" name="depart" placeholder="City or address" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="hero-destination">Destination</label>
-                        <input type="text" id="hero-destination" name="destination" placeholder="City or address" required>
+                        <label for="contact-destination">Destination</label>
+                        <input type="text" id="contact-destination" name="destination" placeholder="City or address" required>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="hero-name">Full Name</label>
-                            <input type="text" id="hero-name" name="name" placeholder="Your name" required>
+                            <label for="contact-name">Full Name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Your name" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="hero-phone">Phone</label>
-                            <input type="tel" id="hero-phone" name="phone" placeholder="+212 6XX XXX XXX" required>
+                            <label for="contact-phone">Phone</label>
+                            <input type="tel" id="contact-phone" name="phone" placeholder="+212 6XX XXX XXX" required>
                         </div>
                     </div>
 
@@ -1061,7 +1075,8 @@ Discover Morocco with our <strong>private excursions with driver</strong>. Perfe
             <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
         </a>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="/js/form.js"></script>
     <script src="/js/text.js"></script>
 <style>
  
